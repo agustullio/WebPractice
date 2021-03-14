@@ -7,13 +7,19 @@
     padding-top: 2%;
     padding-right: 15%;
     
+}#InnerTop{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    height: 90%;
+
 }
 #buscador{
     height: 30px;
     border-radius: 15px;
     width: 33%;
     margin: 1%;
-
+    background-color: #f1f1f1;
 }
 .Scenter{
     text-align: center;
