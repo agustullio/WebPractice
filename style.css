@@ -2,7 +2,6 @@
 #Front{
     display: flex;
     flex-direction: column;
-
 }
 #Top{
     margin: auto;
@@ -19,14 +18,28 @@
     height: 90%;
 
 }
+#LogoArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+}
+#LogoInner{
+    margin-top: auto;
+    height: auto;
+    max-height: 92px;
+}
+
 #buscador{
     height: 40px;
     margin: 1%;
     border-color: transparent;
     background-color: transparent;
+    display: flex;
+    flex: 100%;
 }
 
-.Scenter{
+#Scenter{
     text-align: center;
     width: 100%;
     align-items: center;
@@ -42,7 +55,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-a{
+#Leyend{
     text-decoration: none;
     color: black;
     margin: 5px;
