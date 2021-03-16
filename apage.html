@@ -6,29 +6,32 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="Front"></div>
-        <div id='header'>
-            <img src="logo.png" alt="Google Logo" style="width: 92px; height: 33px">
-            <a href='index.html' >Home</a>
-        </div> 
-        <div>
-            <div style="border-bottom: 1px solid #f0f0f0; margin-left: 0%; margin-right: 0%">
-                <h2 style="color:#d93025; font-weight: 400;">
-                    Advanced Search
-                </h2>
+        <div class="Front">
+            <div id='header'>
+                <img src="logo.png" alt="Google Logo" style="width: 92px; height: 33px; position: relative; top: 13px; left: 13px;">
+                <div class="InnerTop"> 
+                    <a id="home" href='index.html'>Home</a>
+                </div>
+            </div> 
+            <div>
+                <div style="border-bottom: 1px solid #f0f0f0; margin-left: 25px; margin-right: 0%">
+                    <h2 style="color:#d93025; font-weight: 400;">
+                        Advanced Search
+                    </h2>
+                </div>
+                <form action="https://google.com/search">
+                        <h4 style="font-weight: 300;">Find pages with...</h4>
+                        <label for="field1">all these words:</label>
+                        <input id="field1" type="text" name="as_q"><br>
+                        <label for="field2">this exact word or phrase:</label>
+                        <input id="field2" type="text" name="as_epq"><br>
+                        <label for="field3">any of these words:</label>
+                        <input id="field3" type="text" name="as_oq"><br>
+                        <label for="field4">none of these words:</label>
+                        <input id="field4" type="text" name="as_eq"><br>
+                        <input style="background-color:#4a8cf7; color: white;" type="submit" value="Advanced Search">
+                </form>
             </div>
-            <form action="https://google.com/search">
-                    <h4 style="font-weight: 300;">Find pages with...</h4>
-                    <label for="field1">all these words:</label>
-                    <input id="field1" type="text" name="as_q"><br>
-                    <label for="field2">this exact word or phrase:</label>
-                    <input id="field2" type="text" name="as_epq"><br>
-                    <label for="field3">any of these words:</label>
-                    <input id="field3" type="text" name="as_oq"><br>
-                    <label for="field4">none of these words:</label>
-                    <input id="field4" type="text" name="as_eq"><br>
-                    <input style="background-color:#4a8cf7; color: white;" type="submit" value="Advanced Search">
-            </form>
-    </div>
+        </div>  
     </body>
 </html>
