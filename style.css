@@ -6,16 +6,18 @@
 #Top{
     height: 60px;
     background-color: white;
-    padding-top: 2%;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: auto;
 }
 #InnerTop{ 
-    display: inline-block; 
+    float: right;
+    /*display: inline-block; */
     align-items: baseline;
-    margin-top: auto;
-    margin-left: 10px;
-    margin-right: auto;
-    margin-bottom: 3px;
-    height: 10px;
+    margin: auto;
+    padding-right: 1px;
+    margin-left: auto;
+    height: 30px;
 
 }
 #LogoArea{
@@ -67,15 +69,22 @@
 }
 #button{
     border-radius: 4px;
+    border-color: transparent;
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
+    background-color: #f8f9fa;   
     line-height: 27px;
     height: 36px;
     min-width: 54px;
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+#button:hover{
+    /*border-color: grey;*/
+    box-shadow: 0 1px 2px grey;
+    background-color: #f8f9fa;    
 }
 
 body, a, input{
@@ -84,7 +93,10 @@ body, a, input{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgba(0,0,0,0.87);
     margin: 5px;
     text-align: right;
+}
+a:hover{
+    text-decoration: underline;
 }
