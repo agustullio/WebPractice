@@ -34,32 +34,6 @@
     max-height: 92px;
 }
 
-#buscador{
-    height: 34px;
-    margin-top: auto;
-    margin-right: auto;
-    border: none;
-    background-color: transparent;
-    min-width: 500px;
-}
-#buscador:focus{
-    outline: none;                      /*To eliminate the border when selected*/
-}
-.SearchField{
-    border-style: solid;
-    border-width: 1px;
-    border-color: #dfe1e5;
-    border-radius: 24px;
-    height: 44px;
-    max-width: 584px;
-    padding-top: 6px;
-    padding-left: 15px;
-    margin: auto;
-}
-.SearchField:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);       /*When the selector pass over the box, it animate a shadow*/
-}
-
 #Scenter{
     text-align: center;
     width: 100%;
@@ -67,6 +41,43 @@
     padding-top: 10px;
     margin: auto;
 }
+.SearchField{
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    max-width: 584px;
+    display: inline-block;
+}
+.SearchField:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);       /*When the selector pass over the box, it animate a shadow*/
+}
+#Glass{
+    width: 34px;
+    height: 34px;
+    border: none;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-top: 5px;
+    display: inline-block;
+    align-items: center;
+}
+#buscador{
+    height: 34px;
+    min-width: 450px;  
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    top: -6px;
+}
+#buscador:focus{
+    outline: none;                      /*To eliminate the border when selected*/
+}
+
 #button{
     border-radius: 4px;
     border-color: transparent;
@@ -89,13 +100,14 @@
 
 body, a, input{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14;
+    /*font-size: 14;*/
 }
 a{
     text-decoration: none;
     color: rgba(0,0,0,0.87);
     margin: 5px;
     text-align: right;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
 }
 a:hover{
     text-decoration: underline;
