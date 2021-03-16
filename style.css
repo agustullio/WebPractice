@@ -33,16 +33,16 @@
 }
 
 #buscador{
-    height: 35px;
+    height: 34px;
     margin-top: auto;
     margin-right: auto;
     border: none;
     background-color: transparent;
-    display: flex;
-    flex: 100%;
     min-width: 500px;
 }
-
+#buscador:focus{
+    outline: none;                      /*To eliminate the border when selected*/
+}
 .SearchField{
     border-style: solid;
     border-width: 1px;
@@ -51,13 +51,11 @@
     height: 44px;
     max-width: 584px;
     padding-top: 6px;
-    padding-bottom: 1px;
     padding-left: 15px;
-    padding-right: 8px;
     margin: auto;
 }
 .SearchField:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);       /*When the selector pass over the box, it animate a shadow*/
 }
 
 #Scenter{
@@ -82,6 +80,7 @@
 
 body, a, input{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14;
 }
 a{
     text-decoration: none;
