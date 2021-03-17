@@ -2,7 +2,8 @@
 #header{
     background-color: #f1f1f1;
     height: 60px;
-    padding-right: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
     width: 100%;
 }
 #adv{
@@ -16,39 +17,64 @@
     text-align: right;
     font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
     position: relative;
-    top: 13px;
+    top: 14px;
 }
 #home:hover{
     text-decoration: underline;
 }
+#Front{
+    min-height: 100%;
+}
+#FLine{
+    height: 40px;
+    min-height: 100%;
+}
+.FP{
+    float: left;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+}
 .gap{
     height: 42px;
-    display: inline-block;
 }
 .titleField{
     width: 182.4px;
+    float: left;
+    color: #222;
+    font-size: 13px;
 }
 .inputField{
     max-width: 570px;
-}
-.infoField{
-    width: 100px;
     display: inline-block;
 }
+.infoField{
+    height:fit-content;
+    display: inline;
+    vertical-align: middle;
+    color: #555;
+    
+}
 .field{
-    border-radius: 1px;
+    border-radius: 3px;
     border-width: 1px;
     border-color: #c0c0c0;
     border-style: solid;
     width: 500px;
-    height: 30px;
+    height: 28px;
+    padding: 0px 8px ;
 }
 .field:focus{
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 -5px -6px 0 rgba(0, 0, 0, 0.2);
 }
 .Row{
-    width:fit-content;
+    width: 1140px;
+    clear: both;
     height: 0;
+   
 }
 #cont{
     width: 100%;

@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="Front">
+        <div id="Front">
             <div id='header'>
                 <img src="logo.png" alt="Google Logo" style="width: 92px; height: 33px; position: relative; top: 13px; left: 13px;">
                 <div class="InnerTop"> 
@@ -22,22 +22,27 @@
             </div>
             <div id="allcont">
                 <form action="https://google.com/search">
-                    
-                    <div id="FLine">
-                        <div>
-                            <h4 style="font-weight: 300;">Find pages with...</h4>
-                        </div>
-                        <div>
-                            To do this in the search box.
+                    <div class="Row">
+                        <div id="FLine">
+                            <div class="FP gap">
+                                <span">Find pages with...</span>
+                            </div>
+                            <div style="height: 42px; min-width: 500px; max-width: 570px; display: inline-block;">
+                            </div>
+                            <div class="gap" style="display: inline-block;">
+                                <span style="float: inline-start;">To do this in the search box.</span> 
+                            </div>
                         </div>
                     </div>
                     <div id="cont">
                         <div class="Row">
                             <div class="titleField gap" >
-                                <span>all these words:</span>
+                                <div style="padding: 12px 0 15px 0;"> 
+                                    <label for="f1">all these words:</label>
+                                </div>                                
                             </div>
-                            <div class="inputField gap" >
-                                <input class="field" type="text" name="as_q">
+                            <div class="inputField gap" >                                
+                                <input id="f1" class="field" type="text" name="as_q" >
                             </div>
                             <div class="infoField gap">
                                 Type the important words: <span>tri-colour rat terrier</span>
@@ -45,10 +50,12 @@
                         </div>
                         <div class="Row"> 
                             <div class="titleField gap" >
-                                <span>this exact word or phrase:</span>
+                                <div style="padding: 12px 0 15px 0;"> 
+                                    <label for="f2">this exact word or phrase:</label>
+                                </div>
                             </div>
                             <div class="inputField gap" >
-                                <input class="field" type="text" name="as_epq">
+                                <input id="f2" class="field" type="text" name="as_epq">
                             </div>
                             <div class="infoField gap">
                                 Put exact words in quotes: <span>"rat terrier"</span>
@@ -56,10 +63,12 @@
                         </div>
                         <div class="Row">
                             <div class="titleField gap" >
-                                <span>any of these words:</span>
+                                <div style="padding: 12px 0 15px 0;"> 
+                                    <label for="f3">any of these words:</label>
+                                </div>
                             </div>
                             <div class="inputField gap" >
-                                <input class="field" type="text" name="as_oq">
+                                <input id="f3" class="field" type="text" name="as_oq">
                             </div>
                             <div class="infoField gap">
                                 <span>Type the important words: tri-colour rat terrier</span>
@@ -67,17 +76,26 @@
                         </div>
                         <div class="Row">
                             <div class="titleField gap" >
-                                <span>none of these words:</span>
+                                <div style="padding: 12px 0 15px 0;"> 
+                                    <label for="f4">none of these words:</label>
+                                </div>
                             </div>
                             <div class="inputField gap" >
-                                <input class="field" type="text" name="as_eq">
+                                <input id="f4" class="field" type="text" name="as_eq">
                             </div>
                             <div class="infoField gap">
                                 <span>Type the important words: tri-colour rat terrier</span>
                             </div>
                         </div>
                     </div>
-                    <input style="background-color:#4a8cf7; color: white;" type="submit" value="Advanced Search">
+                    <div class="Row">
+                        <div class="gap" style="float: left; width: 182.4px;">
+                        </div>
+                        <dir style="height: 42px; min-width: 500px; max-width: 570px; display: inline-block; margin: 0; padding: 0;">
+                            <input style="background-color:#4a8cf7; color: white; float: right;" type="submit" value="Advanced Search">
+                        </dir>
+                    </div>
+                    
                 </form>
             </div>
         </div>  
