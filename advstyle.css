@@ -1,0 +1,23 @@
+
+#header{
+    background-color: #f1f1f1;
+    height: 60px;
+    padding-right: 10px;
+    width: 100%;
+}
+#adv{
+    margin: 25px 35px;
+    height: 25px;
+}
+#home{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    margin: 5px;
+    text-align: right;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    position: relative;
+    top: 13px;
+}
+#home:hover{
+    text-decoration: underline;
+}
