@@ -21,3 +21,42 @@
 #home:hover{
     text-decoration: underline;
 }
+.gap{
+    height: 42px;
+    display: inline-block;
+}
+.titleField{
+    width: 182.4px;
+}
+.inputField{
+    max-width: 570px;
+}
+.infoField{
+    width: 100px;
+    display: inline-block;
+}
+.field{
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: #c0c0c0;
+    border-style: solid;
+    width: 500px;
+    height: 30px;
+}
+.field:focus{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.Row{
+    width:fit-content;
+    height: 0;
+}
+#cont{
+    width: 100%;
+    clear: both;
+}
+#allcont{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
