@@ -29,6 +29,22 @@
     height: 40px;
     min-height: 100%;
 }
+#cont{
+    width: 100%;
+    clear: both;
+}
+#allcont{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+#adBotton{
+    background-color:#4a8cf7; 
+    color: white;
+    float: right;
+
+}
 .FP{
     float: left;
     min-width: 167px;
@@ -49,14 +65,17 @@
 }
 .inputField{
     max-width: 570px;
-    display: inline-block;
+    float: left;
 }
 .infoField{
     height:fit-content;
-    display: inline;
-    vertical-align: middle;
     color: #555;
-    
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    font-size: 11px;
+    padding: 12px 0 0 5px;
+    height: 30px;
+    display: inline-block;                      
 }
 .field{
     border-radius: 3px;
@@ -74,15 +93,4 @@
     width: 1140px;
     clear: both;
     height: 0;
-   
-}
-#cont{
-    width: 100%;
-    clear: both;
-}
-#allcont{
-    max-width: 1140px;
-    min-width: 200px;
-    width: 96%;
-    margin: 40px 2% 0 45px;
 }
