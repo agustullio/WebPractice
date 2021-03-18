@@ -4,6 +4,7 @@
     height: 60px;
     padding-right: 15px;
     padding-left: 15px;
+    min-width: 600px;
     /*width: 100%;*/
 }
 #adv{
@@ -35,10 +36,10 @@
 }
 #allcont{
     max-width: 1140px;
-    min-width: 200px;
-    width: 96%;
+    min-width: 285px;
+    width: 80vw;
     margin: 40px 2% 0 45px;
-    height: 270px;
+    min-height: 270px;
     border-bottom-color: #f0f0f0;
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -83,7 +84,11 @@
 }
 .inputField{
     max-width: 570px;
+    min-width: 160px;
+    width: 50vw;
     float: left;
+    margin: 0;
+    padding: 0;
 }
 .infoField{
     height:fit-content;
@@ -93,16 +98,18 @@
     font-size: 11px;
     padding-left: 5px;
     height: 30px;
-    display: inline-block;      
+    float:left;    
     vertical-align: middle;    
 }
 .field{
+    max-width: 570px;
+    min-width: 160px;
+    width: 100%;
     border-radius: 1px;
     border: 1px solid #d9d9d9;
     border-top: 1px solid #c0c0c0;
     font-size: 13px;
-    width: 500px;
-    height: 28px;
+    height: 30px;
     padding: 0px 8px;
 }
 .field:focus{
@@ -119,4 +126,21 @@ span{
     font-family: monospace;
     font-size: 11px;
     white-space: pre;
+}
+@media screen and (max-width:1150px){
+    .infoField{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width:800px){
+    .inputField{
+        width: 60vw;
+        min-width: 160px;
+    }
+    .titleField{
+        width: 100%;
+    }
+    #button{
+        float: right;
+    }
 }
