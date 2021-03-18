@@ -6,7 +6,6 @@
 .Top{
     height: 60px;
     background-color: white;
-    padding-top: 15px;
     padding-right: 15px;
     padding-left: auto;
     min-width: 450px;
@@ -17,8 +16,9 @@
     align-items: baseline;
     margin: auto;
     padding-right: 1px;
-    margin-left: auto;
+    margin-top: 15px;
     height: 30px;
+    vertical-align: middle;
 
 }
 .LogoArea{
@@ -51,7 +51,7 @@
     border-color: #dfe1e5;
     border-radius: 24px;
     padding: 5px 8px 0 16px;
-    height: 39px;
+    height: 44px;
     width: auto;
     max-width: 584px;  
     flex: 1;
@@ -65,7 +65,7 @@
 .Glass{
     width: 24px;
     height: 24px;
-    margin-top: 2px;
+    margin-top: 5px;
     border: none;
     background-color: transparent;
     float: left;
@@ -89,7 +89,6 @@
     border: none;
     background-color: transparent;
     display: inline;
-    margin-top: -4px;
     display: flex;
     flex: 100%;
     word-wrap: break-word;
