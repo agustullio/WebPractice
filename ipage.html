@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Image Search</title>
         <link rel="stylesheet" href="style.css">
 
     </head>
     <body>
-        <div class="Scenter">
-            <h1>
-                Buscador
-            </h1>
-            <form action="https://www.google.com.ar/imghp">
-                <input type="text" name="q">
-                <input type="submit" value="Image Search">
-            </form>
+        <div class="Front">
+            <div class='Top'>
+                <div class="InnerTop">
+                    <a href="index.html">Home</a>
+                </div>
+            </div>
+            <div class="LogoArea">
+                <div class="LogoInner">
+                    <img src="logo.png" alt="Google Searcher" width="272" height="92">
+                </div>
+            </div>
+            <div class='Scenter'>
+                <form action="https://www.google.com.ar/imghp">
+                    <div class="Center">
+                        <div class="SearchField"> 
+                            <div class="Glass">
+                                <img src="mag.png" width="24" height="24" >
+                            </div>
+                            <div class="searbox">
+                                <input class= 'buscador' type="text" name="q">
+                            </div>
+                        </div>
+                    </div>
+                    <input class= 'button' type="submit" value="Google Search">
+                </form>
+            </div>
         </div>
     </body>
 </html>

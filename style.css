@@ -3,12 +3,13 @@
     display: flex;
     flex-direction: column;
 }
-#Top{
+.Top{
     height: 60px;
     background-color: white;
     padding-top: 15px;
     padding-right: 15px;
     padding-left: auto;
+    min-width: 450px;
 }
 .InnerTop{ 
     float: right;
@@ -20,7 +21,7 @@
     height: 30px;
 
 }
-#LogoArea{
+.LogoArea{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -28,18 +29,20 @@
     min-height: 92px;
     height: 350px;
     padding-bottom: 1px;
+    min-width: 450px;
 }
-#LogoInner{
+.LogoInner{
     margin-top: auto;
     max-height: 92px;
 }
 
-#Scenter{
+.Scenter{
     text-align: center;
     width: 100%;
     align-items: center;
     padding-top: 10px;
     margin: auto;
+    min-width: 450px;
 }
 .SearchField{
     margin: auto;
@@ -47,38 +50,55 @@
     border-width: 1px;
     border-color: #dfe1e5;
     border-radius: 24px;
-    height: 44px;
-    max-width: 584px;
+    padding: 5px 8px 0 16px;
+    height: 39px;
+    width: auto;
+    max-width: 584px;  
+    flex: 1;
+    display: flex;
+    width: auto;
     display: inline-block;
 }
 .SearchField:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);       /*When the selector pass over the box, it animate a shadow*/
 }
-#Glass{
-    width: 34px;
-    height: 34px;
+.Glass{
+    width: 24px;
+    height: 24px;
+    margin-top: 2px;
     border: none;
     background-color: transparent;
-    margin-top: 5px;
-    margin-left: 10px;
-    padding-top: 5px;
-    display: inline-block;
-    align-items: center;
+    float: left;
 }
-#buscador{
+.searbox{
     height: 34px;
-    min-width: 450px;  
+    max-width: 527px;
+    font-size: 16px;
+    vertical-align: middle;
+    float: left;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    padding-left: 4px;
+    white-space: pre;
+}
+.buscador{
+    height: 34px;
+    width: 50vw;
+    min-width: 300px;
     border: none;
     background-color: transparent;
-    display: inline-block;
-    position: relative;
-    top: -7px;
+    display: inline;
+    margin-top: -4px;
+    display: flex;
+    flex: 100%;
+    word-wrap: break-word;
 }
-#buscador:focus{
+.buscador:focus{
     outline: none;                      /*To eliminate the border when selected*/
 }
 
-#button{
+.button{
     border-radius: 4px;
     border-color: transparent;
     font-size: 14px;
@@ -92,7 +112,7 @@
     cursor: pointer;
     user-select: none;
 }
-#button:hover{
+.button:hover{
     /*border-color: grey;*/
     box-shadow: 0 1px 2px grey;
     background-color: #f8f9fa;    

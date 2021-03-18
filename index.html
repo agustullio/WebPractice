@@ -4,33 +4,35 @@
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Google Search</title>
-        <!link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="Front">
-            <div id='Top'>
+            <div class='Top'>
                 <div class="InnerTop">
                     <a href="apage.html">Advanced Search</a>
                     <a href="ipage.html">Images</a>
                 </div>
             </div>
-            <div id="LogoArea">
-                <div id="LogoInner">
+            <div class="LogoArea">
+                <div class="LogoInner">
                     <img src="logo.png" alt="Google Searcher" width="272" height="92">
                 </div>
             </div>
-            <div id='Scenter' >
+            <div class='Scenter'>
                 <form action="https://google.com/search">
-                    <div id="Center">
+                    <div class="Center">
                         <div class="SearchField"> 
-                            <div id="Glass">
+                            <div class="Glass">
                                 <img src="mag.png" width="24" height="24" >
                             </div>
-                            <input id= 'buscador' type="text" name="q">
+                            <div class="searbox">
+                                <input class= 'buscador' type="text" name="q">
+                            </div>
                         </div>
                     </div>
-                    <input id= 'button' type="submit" value="Google Search">
+                    <input class= 'button' type="submit" value="Google Search">
                 </form>
             </div>
         </div>
