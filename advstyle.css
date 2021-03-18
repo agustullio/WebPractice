@@ -36,7 +36,7 @@
 }
 #allcont{
     max-width: 1140px;
-    min-width: 285px;
+    min-width: 167px;
     width: 80vw;
     margin: 40px 2% 0 45px;
     min-height: 270px;
@@ -84,7 +84,7 @@
 }
 .inputField{
     max-width: 570px;
-    min-width: 160px;
+    min-width: 167px;
     width: 50vw;
     float: left;
     margin: 0;
@@ -93,7 +93,7 @@
 .infoField{
     height:fit-content;
     color: #555;
-    min-width: 160px;
+    min-width: 167px;
     margin: 0 0 8px 1%;
     font-size: 11px;
     padding-left: 5px;
@@ -103,7 +103,7 @@
 }
 .field{
     max-width: 570px;
-    min-width: 160px;
+    min-width: 167px;
     width: 100%;
     border-radius: 1px;
     border: 1px solid #d9d9d9;
@@ -127,12 +127,12 @@ span{
     font-size: 11px;
     white-space: pre;
 }
-@media screen and (max-width:1150px){
+@media screen and (max-width:900px){
     .infoField{
         visibility: hidden;
     }
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:450px){
     .inputField{
         width: 60vw;
         min-width: 160px;
